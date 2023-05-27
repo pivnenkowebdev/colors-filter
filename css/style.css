@@ -1,0 +1,54 @@
+@import 'reset.css';
+@import 'base.css';
+
+.img-holder {
+   padding-top: 100px;
+}
+
+.img-holder img{
+   margin: 0 auto;
+}
+
+.row-colors-btn {
+   display: flex;
+   column-gap: 40px;
+   justify-content: center;
+}
+
+.color-btn {
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+}
+
+.color-btn--black{
+   background-color: black;
+}
+
+.color-btn--blue {
+   background-color: blue;
+}
+
+.color-btn--graphite {
+   background-color: gray;
+}
+
+.color-btn--orange {
+   background-color: orange;
+}
+
+.color-btn--red {
+   background-color: red;
+}
+
+.color-btn--white {
+   background-color: white;
+}
+
+.color-btn--white-pure {
+   background-color: antiquewhite;
+}
+
+.color-btn.active{
+   border: 5px solid rgb(255, 255, 1);
+}
